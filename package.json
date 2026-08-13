@@ -1,7 +1,7 @@
 {
-  "name": "@hexlet/code",
+  "name": "nodejs-gendiff-project",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Slovuan-Swan/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-46/actions)",
+  "description": "Compares two configuration files and shows a difference.",
   "homepage": "https://github.com/Slovuan-Swan/nodejs-gendiff-project#readme",
   "bugs": {
     "url": "https://github.com/Slovuan-Swan/nodejs-gendiff-project/issues"
