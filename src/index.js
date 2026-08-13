@@ -7,7 +7,7 @@ import format from "./formatters/index.js";
 const getDataAndFormat = (filePath) => {
   const absolutePath = path.resolve(process.cwd(), filePath);
   const data = fs.readFileSync(absolutePath, "utf-8");
-  const fileFormat = path.extname(filePath).slice(1);
+  const fileFormat = path.extname(filePath).slice(1).toLowerCase();
   return { data, format: fileFormat };
 };
 
