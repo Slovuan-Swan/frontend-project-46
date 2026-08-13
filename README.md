@@ -2,15 +2,17 @@
 
 ### Статус проекта и проверки:
 
-[![Actions Status](https://github.com/Slovuan-Swan/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Slovuan-Swan/frontend-project-46/actions) | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-46) | [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_frontend-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_frontend-project-46) |
+[![CI](https://github.com/Slovuan-Swan/nodejs-gendiff-project/actions/workflows/ci.yml/badge.svg)](https://github.com/Slovuan-Swan/nodejs-gendiff-project/actions/workflows/ci.yml)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_nodejs-gendiff-project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_nodejs-gendiff-project)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Slovuan-Swan_nodejs-gendiff-project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Slovuan-Swan_nodejs-gendiff-project)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
 ## Описание
 
 **Gendiff** — это консольная утилита (CLI), которая сравнивает два конфигурационных файла и находит в них различия. Программа умеет работать с рекурсивными структурами данных любой глубины вложенности. Она поддерживает форматы **JSON** и **YAML**, а также предоставляет вывод в нескольких стилях.
-
-Проект разработан в рамках обучения на платформе **Hexlet** (Модуль #3). В основе приложения лежит построение абстрактного дерева зависимостей (AST) и иммутабельный функциональный подход.
+В основе приложения лежит построение абстрактного дерева зависимостей (AST) и иммутабельный функциональный подход.
 
 ## Возможности
 
@@ -51,6 +53,12 @@ gendiff -f plain __fixtures__/file1.json __fixtures__/file2.json
 
 # Сравнение файлов в формате json
 gendiff -f json __fixtures__/file1.json __fixtures__/file2.json
+```
+
+## Тестирование
+
+```bash
+make test
 ```
 
 ---
